@@ -1,0 +1,155 @@
+@import "variables";
+
+body {
+  @at-root .header {
+    @at-root .navbar {
+      height: 120px;
+
+      @at-root .navbar__home-link {
+        width: 200px;
+      }
+
+      @at-root .navbar__button {
+        width: 50px;
+      }
+
+      @at-root .navbar__nav-list-mobile {
+        height: calc(100vh - 120px);
+        gap: 50px;
+
+        @at-root .navbar__nav-item-mobile {
+          @at-root .navbar__nav-link-mobile {
+            font-size: 2rem;
+          }
+        }
+      }
+    }
+
+    @at-root .header__content {
+      @at-root .header__text-section {
+        background-size: 350px auto;
+        gap: 40px;
+
+        @at-root &::after {
+          width: 220px;
+          background-size: 100% auto;
+          inset: auto 0 -35% auto;
+        }
+
+        @at-root .header__title {
+          font-size: 6rem;
+        }
+
+        @at-root .header__desc {
+          font-size: 2.12rem;
+        }
+
+        @at-root .header__button {
+          font-size: 2.12rem;
+          width: 250px;
+          padding: 25px;
+        }
+      }
+    }
+  }
+
+  @at-root .main {
+    margin: 200px 0;
+
+    @at-root .main__title {
+      font-size: 5rem;
+      height: 200px;
+
+      @at-root &::before {
+        width: 250px;
+      }
+    }
+
+    @at-root .main__list-container {
+      gap: 70px;
+      margin: 50px 0 100px 0;
+
+      @at-root .main__list-item {
+        gap: 40px;
+
+        @at-root .main__list-icon {
+          width: 130px;
+        }
+
+        @at-root .main__list-title {
+          font-size: 3rem;
+        }
+
+        @at-root .main__list-desc {
+          font-size: 2.05rem;
+        }
+      }
+    }
+
+    @at-root .main__card {
+      background-size: 250px auto;
+      height: 500px;
+      gap: 50px;
+
+      @at-root .main__card-title {
+        font-size: 5rem;
+        padding: 0 50px;
+      }
+
+      @at-root .main__card-button {
+        font-size: 1.8rem;
+        width: 250px;
+        padding: 20px;
+      }
+    }
+  }
+
+  @at-root .footer {
+    gap: 50px;
+
+    @at-root .footer__top-section {
+      height: 250px;
+      gap: 40px;
+
+      @at-root .footer__logo {
+        width: 200px;
+      }
+
+      @at-root .footer__social-list {
+        gap: 30px;
+
+        @at-root .footer__social-item {
+          @at-root .footer__social-link {
+            font-size: 40px;
+          }
+        }
+      }
+    }
+
+    @at-root .footer__navigation {
+      gap: 70px;
+
+      @at-root .footer__nav-section {
+        gap: 70px;
+
+        @at-root .footer__nav-title {
+          font-size: 1.8rem;
+        }
+
+        @at-root .footer__nav-list {
+          gap: 40px;
+
+          @at-root .footer__nav-item {
+            @at-root .footer__nav-link {
+              font-size: 1.8rem;
+            }
+          }
+        }
+      }
+    }
+
+    @at-root .attribution {
+      font-size: 1.2rem;
+    }
+  }
+}

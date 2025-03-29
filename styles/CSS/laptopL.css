@@ -1,0 +1,57 @@
+.navbar {
+  height: 80px;
+  padding: 0 10%;
+}
+.navbar__home-link {
+  width: 110px;
+}
+
+.header__content {
+  padding: 0 10%;
+}
+.header__text-section {
+  height: 73%;
+  padding: 40px 0 0 0;
+}
+.header__title {
+  font-size: 3.8rem;
+}
+
+.header__image-section {
+  height: 73%;
+}
+
+.main {
+  padding: 0 10%;
+}
+.main__title {
+  font-size: 3.8rem;
+}
+
+.main__list-container {
+  gap: 50px;
+  margin-bottom: 75px;
+  margin-top: 25px;
+}
+.main__list-icon {
+  margin-bottom: 20px;
+}
+
+.main__card-title {
+  font-size: 3.6rem;
+}
+
+.main__card-button {
+  width: 150px;
+}
+
+.footer {
+  gap: 30px;
+}
+.footer__top-section {
+  width: 80%;
+}
+
+.footer__navigation {
+  width: 80%;
+}/*# sourceMappingURL=laptopL.css.map */

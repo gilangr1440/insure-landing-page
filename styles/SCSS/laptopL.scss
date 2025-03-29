@@ -1,0 +1,73 @@
+@import "variables";
+
+body {
+  @at-root .header {
+    @at-root .navbar {
+      height: 80px;
+      padding: 0 10%;
+
+      @at-root .navbar__home-link {
+        width: 110px;
+      }
+    }
+
+    @at-root .header__content {
+      padding: 0 10%;
+
+      @at-root .header__text-section {
+        height: 73%;
+        padding: 40px 0 0 0;
+
+        @at-root .header__title {
+          font-size: 3.8rem;
+        }
+      }
+
+      @at-root .header__image-section {
+        height: 73%;
+      }
+    }
+  }
+
+  @at-root .main {
+    padding: 0 10%;
+
+    @at-root .main__title {
+      font-size: 3.8rem;
+    }
+
+    @at-root .main__list-container {
+      gap: 50px;
+      margin-bottom: 75px;
+      margin-top: 25px;
+
+      @at-root .main__list-item {
+        @at-root .main__list-icon {
+          margin-bottom: 20px;
+        }
+      }
+    }
+
+    @at-root .main__card {
+      @at-root .main__card-title {
+        font-size: 3.6rem;
+      }
+
+      @at-root .main__card-button {
+        width: 150px;
+      }
+    }
+  }
+
+  @at-root .footer {
+    gap: 30px;
+
+    @at-root .footer__top-section {
+      width: 80%;
+    }
+
+    @at-root .footer__navigation {
+      width: 80%;
+    }
+  }
+}

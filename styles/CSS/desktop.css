@@ -1,0 +1,39 @@
+.header__content {
+  gap: 30px;
+  max-height: 700px;
+  height: 85vh;
+}
+.header__text-section {
+  flex-basis: 50%;
+  height: 65%;
+}
+.header__title {
+  width: 95%;
+  font-size: 4.5rem;
+}
+
+.header__desc {
+  width: 100%;
+}
+
+.header__button {
+  width: 130px;
+  padding: 15px;
+}
+
+.header__image-section {
+  flex-basis: 50%;
+  height: 65%;
+}
+
+.main {
+  margin: 300px 0 150px 0;
+}
+.main__title {
+  font-size: 4.5rem;
+  height: 200px;
+}
+
+.footer__top-section {
+  height: 110px;
+}/*# sourceMappingURL=desktop.css.map */
